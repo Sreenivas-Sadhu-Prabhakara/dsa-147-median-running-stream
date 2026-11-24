@@ -12,6 +12,13 @@ Keep all values in one sorted slice: `sort.SearchInts` finds the insertion point
 
 **Complexity:** Add O(n) worst case (memmove), Median O(1).
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
